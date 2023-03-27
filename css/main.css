@@ -1,8 +1,29 @@
+@import url(/fonts/BINGGRAE.TTF);
 @import url(/fonts/BINGGRAE-BOLD.TTF);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins&display=swap');
 
 @font-face {
-    src: url("../fonts/Binggrae.ttf");
+    src: url("../fonts/BINGGRAE.TTF");
     font-family: "Binggrae";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+	font-family: 'Binggrae-Bold';
+    src: url("../fonts/BINGGRAE-BOLD.TTF") format('woff');
+    /* src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+}
+/* ** 폰트 ** */
+.en{
+	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Noto Sans KR', sans-serif; */
+	letter-spacing: normal !important;
+	/* font-weight: 300; */
+}
+.ko{
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 #Binggrae_font {
@@ -22,19 +43,58 @@ input {
 }
 
 /* common style */
-.wrap {
-    font-size: 15px;
-    font-family: 'Noto Sans KR', sans-serif;
+* {
+    font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    line-height: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: normal;
+	color: #1f1f1f;;
+	letter-spacing:-0.09em;
+	padding:0;
+	margin:0;
+
 }
 .hide {
     display: none !important;
 }
 
+.wrap {
+    position: relative;
+}
 
 /* header style */
+header .header-top {
+    width: 100%;
+    position: fixed;
+    padding: 0 80px;
+    line-height: 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
 
+header .header-top ul {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .header-top ul li {
+    margin-right: 10px;
+    position: relative;
+}
+
+header .header-top a img {
+    margin-left: 5px; 
+}
+
+header .header-container 
 
 /* top style */
 .top h3 {
     font-family: 'Binggrae', sans-serif;
 }
+

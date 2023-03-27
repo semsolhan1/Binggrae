@@ -1,0 +1,40 @@
+@import url(/fonts/BINGGRAE-BOLD.TTF);
+
+@font-face {
+    src: url("../fonts/Binggrae.ttf");
+    font-family: "Binggrae";
+}
+
+#Binggrae_font {
+    font-family: "Binggrae";
+}
+
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+/* common style */
+.wrap {
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.hide {
+    display: none !important;
+}
+
+
+/* header style */
+
+
+/* top style */
+.top h3 {
+    font-family: 'Binggrae', sans-serif;
+}
